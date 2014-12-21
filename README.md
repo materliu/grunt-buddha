@@ -37,56 +37,41 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.who
 Type: `String`
-Default value: `',  '`
+Default value: `buddha`
 
-A string value that is used to do something with whatever.
+指明是否佛祖还是神兽来保佑我们的代码
 
-#### options.punctuation
+#### options.commentSymbol
 Type: `String`
-Default value: `'.'`
+Default value: `//`
 
-A string value that is used to do something else with whatever else.
+文件中拼接佛祖或神兽时使用的注释符
 
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
 
-```js
-grunt.initConfig({
-  buddha: {
-    options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-})
-```
-
-#### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
 
 ```js
 grunt.initConfig({
   buddha: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      'who': 'buddha',
+      'commentSymbol': '//'
     },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    dist: ['examples/*.js']
   },
 })
 ```
+
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+2014-12-21&nbsp;&nbsp;&nbsp;v0.0.1&nbsp;&nbsp;&nbsp; init
 
 ## License
 Copyright (c) 2014 materliu. Licensed under the MIT license.
