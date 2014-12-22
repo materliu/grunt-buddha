@@ -72,6 +72,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 2014-12-21&nbsp;&nbsp;&nbsp;v0.0.1&nbsp;&nbsp;&nbsp; init
+2014-12-22&nbsp;&nbsp;&nbsp;v0.0.2&nbsp;&nbsp;&nbsp; init
 
 ## License
 Copyright (c) 2014 materliu. Licensed under the MIT license.
