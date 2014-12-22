@@ -41,7 +41,7 @@ grunt.initConfig({
 Type: `String`
 Default value: `buddha`
 
-指明是否佛祖还是神兽来保佑我们的代码
+指明使用佛祖还是神兽来保佑我们的代码
 
 #### options.commentSymbol
 Type: `String`
