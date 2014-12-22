@@ -32,7 +32,7 @@ module.exports = function (grunt) {
         commentSymbol = options.commentSymbol,
         commentFilepathMap = {
           'buddha': 'assets/buddha.txt',
-          'alpaca': 'asset/alpaca.txt'
+          'alpaca': 'assets/alpaca.txt'
         },
         commentFilepath = path.join(__dirname, commentFilepathMap[who]),
         commentContent = grunt.file.read(commentFilepath),
